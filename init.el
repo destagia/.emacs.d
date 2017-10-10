@@ -51,3 +51,10 @@
 
 ;; Theme
 (load-theme (quote material) t)
+
+
+;; Color
+(if window-system (progn
+    (set-frame-parameter nil 'alpha 90) ;透明度
+    ))
+
